@@ -151,18 +151,7 @@
   -webkit-transform: scale(.8);
   transform: scale(.8);
 }
-.item--big .img-caption{
-  position:absolute;
-  width:100%;
-  bottom:0;
-  left:0;
-  right:0;
-  background-color: rgba(0,0,0,0.6);
-  color:white;
-  padding:10px;
-  font-size:.8em;
-  text-align:center;
-}
+
 .fadeInScaleUp {
   -webkit-animation: fadeInScaleUp .5s ease-out .6s forwards;
   animation: fadeInScaleUp .5s ease-out .6s forwards;
