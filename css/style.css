@@ -9,6 +9,8 @@ body {
   font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
   color: black;
   background-color: white;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 html {
@@ -16,12 +18,7 @@ html {
   height: 100%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   margin: 0 0 35px;
   text-transform: uppercase;
   font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -97,6 +94,7 @@ p {
 }
 
 .intro {
+  margin-bottom: 60px;
   display: table;
   width: 100%;
   height: auto;
@@ -145,11 +143,15 @@ p {
 
 .section {
   margin: 20px;
+}
+
+.section h1 {
   font-size: 30px;
 }
 
 .section p {
   font-size: 20px;
+  text-align: justify;
 }
 
 .separation {
@@ -158,4 +160,30 @@ p {
   width: 100%;
   padding: 100px 0;
   background: url(../image/image_separation.jpg) no-repeat bottom center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin-bottom: 40px;
+}
+
+.footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  /*background-color: red;*/
+}
+
+.footer h3 {
+  margin-top: 2%;
+  font-size: 15px;
+  text-align: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer a:hover, .footer a:focus {
+  outline: none;
+  color: rgba(0, 0, 0, 0.6);
 }
