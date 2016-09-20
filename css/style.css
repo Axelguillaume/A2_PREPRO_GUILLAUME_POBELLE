@@ -142,3 +142,12 @@ p {
   outline: none;
   color: rgba(0, 0, 0, 0.6);
 }
+
+.section {
+  margin: 20px;
+  font-size: 30px;
+}
+
+.section p {
+  font-size: 20px;
+}
