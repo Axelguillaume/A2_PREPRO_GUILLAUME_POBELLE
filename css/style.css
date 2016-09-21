@@ -94,7 +94,6 @@ p {
 }
 
 .intro {
-  margin-bottom: 60px;
   display: table;
   width: 100%;
   height: auto;
@@ -143,6 +142,7 @@ p {
 
 .section {
   margin: 20px;
+  margin-top: 40px;
 }
 
 .section h1 {
@@ -164,7 +164,6 @@ p {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  margin-bottom: 40px;
 }
 
 .footer {
