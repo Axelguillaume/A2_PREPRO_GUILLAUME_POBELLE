@@ -3,6 +3,7 @@
  *  Description: Responsive jQuery Gallery Plugin with CSS3 Animations inspired by http://store.sony.com/webapp/wcs/stores/servlet/ProductDisplay?catalogId=10551&storeId=10151&langId=-1&productId=8198552921666556433#gallery
  *  Author: Sara Soueidan
  *  License: Creative-Commons Attribution Non-Commercial
+
  Customized: added number of image, for added captions in the HTML, these are hidden while image resizes
  */
 
@@ -332,3 +333,4 @@
     };
 
 })( jQuery, window, document );
+
