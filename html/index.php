@@ -71,7 +71,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">SNEAKERS FAN</h1>
+                        <h1 class="brand-heading bounceInLeft">SNEAKERS FAN</h1>
                         <a href="#bla" class="fleche">
                             <i class="glyphicon glyphicon-chevron-down"></i>
                         </a>
