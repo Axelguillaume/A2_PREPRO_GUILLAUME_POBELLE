@@ -276,6 +276,40 @@ p {
   margin-bottom: 0px;
 }
 
+.intro_actu {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  text-align: center;
+  color: black;
+  background: url(../image/image_header_actu.jpg) no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.intro_actu .intro-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.intro_actu .intro-body .brand-heading {
+  font-size: 40px;
+}
+
+@media (min-width: 768px) {
+  .intro_actu {
+    height: 100%;
+    padding: 0;
+  }
+  .intro_actu .intro-body .brand-heading {
+    font-size: 100px;
+  }
+}
+
 #container-fluid {
   margin-top: 30px;
   margin-bottom: 30px;
