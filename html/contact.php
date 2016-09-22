@@ -136,7 +136,53 @@
 
 			?>
 
-		
+		<!--  FORMULAIRE  -->
+
+		<form method="post" action="<?php echo strip_tags($_SERVER['REQUEST_URI']); ?>">
+			<div id="container-fluid">
+				<div class="row">
+					<div class="col-md-3"></div>
+					<div class="col-md-3 txt">
+						<p>Votre NOM & PRÉNOM : </p>
+					</div>
+					<div class="col-md-3">
+						<input type="text" name="nom" size="40" />
+					</div>
+					<div class="col-md-3"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-3"></div>
+					<div class="col-md-3 txt">
+						<p>Votre EMAIL <span style="color:#ff0000;">*</span>: </p>
+					</div>
+					<div class="col-md-3">
+						<input type="text" name="email" size="30" />
+					</div>
+					<div class="col-md-3"></div>
+				</div>
+				<div class="row message">
+					<div class="col-md-3"></div>
+					<div class="col-md-3 txt">
+						<p>Votre MESSAGE <span style="color:#ff0000;">*</span>: </p>
+					</div>
+					<div class="col-md-3">
+						<textarea name="message" cols="45" rows="8"></textarea>
+					</div>
+					<div class="col-md-3"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-3"></div>
+					<div class="col-md-3 txt">
+						<p>Combien font 1+3 : </p>
+					</div>
+					<div class="col-md-3">
+						<input type="text" name="captcha" size="2" />
+						<p class="btn"><input type="submit" name="submit" value="Envoyer" /></p>
+					</div>
+					<div class="col-md-3"></div>
+				</div>
+			</div>	   	
+		</form>
 
     <!--  FOOTER  -->
 
