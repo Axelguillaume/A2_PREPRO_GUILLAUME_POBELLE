@@ -42,7 +42,101 @@
 			</div>
 		</div>
     </div>
-    		
+    		<!--  PHP  -->
+
+		    <?php
+			  if ($_SERVER['REQUEST_METHOD']=='POST') {
+			 
+				  $nombreErreur = 0; 
+				  if (!isset($_POST['email'])) { 
+				    $nombreErreur++; 
+				    $erreur1 = '<p>Il y a un problème avec la variable "email".</p>';
+				  } else { 
+					    if (empty($_POST['email'])) { 
+					      $nombreErreur++; 
+					      $erreur2 = '<div class="row txt"">
+						    	<div class="col-md-8 col-md-offset-2">
+						    		<p>Vous avez oublié de donner votre email.</p>
+								</div>
+							</div>';
+					    } else {
+						      if (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+						        $nombreErreur++; 
+						        $erreur3 = '<p>Cet email ne ressemble pas un email.</p>';
+						      }
+					    }
+				  }
+				 
+				  if (!isset($_POST['message'])) {
+				    $nombreErreur++;
+				    $erreur4 = '<p>Il y a un problème avec la variable "message".</p>';
+				  } else {
+					    if (empty($_POST['message'])) {
+					      $nombreErreur++;
+					      $erreur5 = '<p>Vous avez oublié de donner un message.</p>';
+					    }
+				  }
+
+				  if (!isset($_POST['captcha'])) {
+				    $nombreErreur++;
+				    $erreur6 = '<p>Il y a un problème avec la variable "captcha".</p>';
+				  } else {
+					    if ($_POST['captcha']!=4) {
+					      $nombreErreur++;
+					      $erreur7 = '<p>Désolé, le captcha anti-spam est erroné.</p>';
+					    }
+				  }
+				 
+				  if ($nombreErreur==0) { 
+				  $nom     = htmlentities($_POST['nom']); 
+				  $email   = htmlentities($_POST['email']);
+				  $message = htmlentities($_POST['message']);
+				 
+				  $destinataire = 'guilllaumeaxel@gmail.com'; 
+				  $sujet = 'Titre du message'; 
+				  $contenu = '<html><head><title>Titre du message</title></head><body>';
+				  $contenu .= '<p>Mail Sneakers FAN</p>';
+				  $contenu .= '<p><strong>Nom</strong>: '.$nom.'</p>';
+				  $contenu .= '<p><strong>Email</strong>: '.$email.'</p>';
+				  $contenu .= '<p><strong>Message</strong>: '.$message.'</p>';
+				  $contenu .= '</body></html>'; 
+				  $headers = 'MIME-Version: 1.0'."\r\n";
+				  $headers .= 'Content-type: text/html; charset=iso-8859-1'."\r\n";
+				 
+				  mail($destinataire, $sujet, $contenu, $headers);
+				  echo '<h2>Message envoyé!</h2>'; 
+
+				  } else { 
+				    echo '<div id="container-fluid">
+				    		<div class="row txt">
+						    	<div class="col-md-8 col-md-offset-2" style="border:1px solid #ff0000; padding:35px;">
+						    		<h1 style="color:#ff0000; font-size:20px;">Désolé, il y a eu '.$nombreErreur.' erreur(s). Voici le détail des erreurs:</h1>';
+								    if (isset($erreur1)) echo '<p>'.$erreur1.'</p>';
+								    if (isset($erreur2)) echo '<p>'.$erreur2.'</p>';
+								    if (isset($erreur3)) echo '<p>'.$erreur3.'</p>';
+								    if (isset($erreur4)) echo '<p>'.$erreur4.'</p>';
+								    if (isset($erreur5)) echo '<p>'.$erreur5.'</p>';
+								    if (!isset($_POST['captcha'])) {
+									    $nombreErreur++;
+									    $erreur6 = '<p>Il y a un problème avec la variable "captcha".</p>';
+									} else {
+										if ($_POST['captcha']!=4) {
+										  $nombreErreur++;
+										  $erreur7 = '<p>Désolé, le captcha anti-spam est erroné.</p>';
+										    }
+									    }
+
+									if (isset($erreur6)) echo '<p>'.$erreur6.'</p>';
+									if (isset($erreur7)) echo '<p>'.$erreur7.'</p>';
+				    echo '		</div>
+							</div>
+					    </div>';
+					}
+			}
+
+			?>
+
+		
 
     <!--  FOOTER  -->
 
