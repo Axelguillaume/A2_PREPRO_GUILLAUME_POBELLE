@@ -68,11 +68,11 @@
     </nav>
 
     <!--  Accueil  -->
-    <header class="intro">
+    <header class="intro_galerie">
         <div class="intro-body">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
+                    <div class="col-md-12 ">
                         <h1 class="brand-heading">GALERIE PHOTOS</h1>
                         <a href="#bla" class="fleche">
                             <i class="glyphicon glyphicon-chevron-down"></i>
@@ -83,7 +83,12 @@
         </div>
     </header>
 
-<div class="demo-wrapper">
+<div id="container-fluid">
+        <div class="row section">
+            <div class="col-md-12">
+                <h1 id="bla">Les dernières paires à la mode</h1>
+                <div class="col-md-12">
+                    <div class="demo-wrapper">
 
   <!--// Gallery Markup: A container that the plugin is called upon, and two lists for the images (use images with same aspect ratio) //-->
   <div id="gallery-container">
@@ -209,6 +214,11 @@
     
   </div>
   
+                </div>
+            </div>
+        </div>
+    </div>
+
 
   
 
