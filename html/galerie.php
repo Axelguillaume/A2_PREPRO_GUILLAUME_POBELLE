@@ -73,7 +73,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 ">
-                        <h1 class="brand-heading">GALERIE PHOTOS</h1>
+                        <h1 class="brand-heading bounceInLeft">GALERIE PHOTOS</h1>
                         <a href="#bla" class="fleche">
                             <i class="glyphicon glyphicon-chevron-down"></i>
                         </a>
