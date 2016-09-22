@@ -1,0 +1,18 @@
+#container-fluid{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    .message{
+        margin-bottom: 2em;
+    }    
+    .txt {
+        text-align: center;
+    }
+    p{
+        margin: 0 0 10px;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    .btn {
+        float: right;
+    }     
+}

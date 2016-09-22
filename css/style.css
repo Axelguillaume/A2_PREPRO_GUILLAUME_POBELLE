@@ -182,3 +182,26 @@ p {
   outline: none;
   color: rgba(0, 0, 0, 0.6);
 }
+
+#container-fluid {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#container-fluid .message {
+  margin-bottom: 2em;
+}
+
+#container-fluid .txt {
+  text-align: center;
+}
+
+#container-fluid p {
+  margin: 0 0 10px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+#container-fluid .btn {
+  float: right;
+}
