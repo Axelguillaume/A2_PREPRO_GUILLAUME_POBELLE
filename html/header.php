@@ -15,16 +15,16 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="" href="#">Accueil</a>
+                        <a class="" href="index.php">Accueil</a>
                     </li>
                     <li>
-                        <a class="" href="#">Actualités</a>
+                        <a class="" href="actu.php">Actualités</a>
                     </li>
                     <li>
-                        <a class="" href="#">Galerie</a>
+                        <a class="" href="galerie.html">Galerie</a>
                     </li>
                     <li>
-                        <a class="" href="#">Contact</a>
+                        <a class="" href="contact.php">Contact</a>
                     </li>
                 </ul>
             </div>
