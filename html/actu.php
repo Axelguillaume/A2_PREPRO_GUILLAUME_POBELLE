@@ -71,7 +71,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading bounceInLeft">SNEAKERS FAN</h1>
+                        <h1 class="brand-heading bounceInLeft">ACTUALITÉ</h1>
                         <a href="#bla" class="fleche">
                             <i class="glyphicon glyphicon-chevron-down"></i>
                         </a>
@@ -84,7 +84,7 @@
     <!--  Section 1  -->
 
     <div id="container-fluid">
-        <div class="row section">
+        <div class="row section ensemble_article">
             <div class="col-md-12">
                 <div class="col-md-6">
                     <h1>Qui sommes nous?</h1>
@@ -101,7 +101,7 @@
     <!--  Section 2  -->
 
     <div id="container-fluid">
-        <div class="row section">
+        <div class="row section ensemble_article">
             <div class="col-md-12">
                 <div class="col-md-6">
                     <h1>Qui sommes nous?</h1>
@@ -118,7 +118,7 @@
     <!--  Section 3  -->
 
     <div id="container-fluid">
-        <div class="row section">
+        <div class="row section ensemble_article">
             <div class="col-md-12">
                 <div class="col-md-6">
                     <h1>Qui sommes nous?</h1>
@@ -135,7 +135,7 @@
     <!--  Section 4  -->
 
     <div id="container-fluid">
-        <div class="row section">
+        <div class="row section ensemble_article">
             <div class="col-md-12">
                 <div class="col-md-6">
                     <h1>Qui sommes nous?</h1>
@@ -152,7 +152,7 @@
     <!--  Section 5  -->
 
     <div id="container-fluid">
-        <div class="row section">
+        <div class="row section ensemble_article">
             <div class="col-md-12">
                 <div class="col-md-6">
                     <h1>Qui sommes nous?</h1>
