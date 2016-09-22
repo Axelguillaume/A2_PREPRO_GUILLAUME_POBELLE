@@ -66,7 +66,7 @@
 
 
     <!--  Accueil  -->
-    <header class="intro">
+    <header class="intro_actu">
         <div class="intro-body">
             <div class="container">
                 <div class="row">
