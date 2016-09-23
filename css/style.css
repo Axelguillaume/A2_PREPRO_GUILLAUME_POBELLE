@@ -343,6 +343,12 @@ p {
   margin-bottom: 0px;
 }
 
+@media (max-width: 768px) {
+  .ensemble_article {
+    background-size: 100%;
+  }
+}
+
 .intro_actu {
   display: table;
   width: 100%;
