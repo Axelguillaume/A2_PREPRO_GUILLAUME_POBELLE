@@ -20,6 +20,7 @@
          
     });
     </script>
+    
 </head>
 
 
@@ -48,7 +49,7 @@
 
     <!--  Section 1  -->
 
-    <div id="container-fluid">
+    <div id="container-fluid" class="bounceInUp">
         <div class="row section ensemble_article">
             <div class="col-md-12">
                 <div class="col-md-6">

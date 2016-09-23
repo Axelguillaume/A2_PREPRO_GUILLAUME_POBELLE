@@ -18,12 +18,12 @@
 <?php include("header.php"); ?>
 
     <!--  Accueil  -->
-    <header class="intro">
+    <header class="intro_contact">
         <div class="intro-body">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">CONTACT</h1>
+                        <h1 class="brand-heading bounceInLeft">CONTACT</h1>
                         <a href="#bla" class="fleche">
                             <i class="glyphicon glyphicon-chevron-down"></i>
                         </a>
