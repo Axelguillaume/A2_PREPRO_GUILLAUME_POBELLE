@@ -26,16 +26,62 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
 	<!--  NAV  -->
+<<<<<<< HEAD
 	
 <?php include("header.php"); ?>
 
+=======
+<<<<<<< Updated upstream:html/index.php
+	
+<?php include("header.php"); ?>
+=======
+	<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse" href="#1">
+                    <i class="glyphicon glyphicon-align-justify"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    Sneakers FAN
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="" href="#">Accueil</a>
+                    </li>
+                    <li>
+                        <a class="" href="#">Actualités</a>
+                    </li>
+                    <li>
+                        <a class="" href="#">Galerie</a>
+                    </li>
+                    <li>
+                        <a class="" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+
+>>>>>>> Stashed changes:html/index.html
+>>>>>>> galerie_photo
     <!--  Accueil  -->
     <header class="intro">
         <div class="intro-body">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
+<<<<<<< HEAD
                         <h1 class="brand-heading bounceInLeft">SNEAKERS FAN</h1>
+=======
+                        <h1 class="brand-heading">SNEAKERS FAN</h1>
+>>>>>>> galerie_photo
                         <a href="#bla" class="fleche">
                             <i class="glyphicon glyphicon-chevron-down"></i>
                         </a>
