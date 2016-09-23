@@ -8,7 +8,17 @@
 	<link rel="stylesheet" href="../css/style.css">
 	<script type="text/javascript" src="../bootstrap/js/bootstrap.js"></script>
     <script src="../bootstrap/js/bootstrap.min.js"></script>
-	</head>
+    <!-- SCROLL -->
+    <script type="text/javascript" src="../bootstrap/js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="../bootstrap/js/jquery.localscroll-1.2.7-min.js"></script>
+    <script type="text/javascript" src="../bootstrap/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+    <script type="text/javascript">
+    jQuery(function($){
+        $.localScroll();
+         
+    });
+    </script>
+</head>
 
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -35,8 +45,8 @@
 
     <!--  TITRE FORMULAIRE  -->
 
-    <div id="container-fluid" class="bla">
-    	<div class="row">
+    <div id="container-fluid">
+    	<div class="row" id="bla">
 	    	<div class="col-md-12 txt">
 	    		<h1>Des questions des conseils? N'hésitez pas !</h1>
 			</div>

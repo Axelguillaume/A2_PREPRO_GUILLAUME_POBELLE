@@ -29,40 +29,6 @@
 	
 <?php include("header.php"); ?>
 
-	<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse" href="#1">
-                    <i class="glyphicon glyphicon-align-justify"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    Sneakers FAN
-                </a>
-            </div>
-
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="" href="index.php">Accueil</a>
-                    </li>
-                    <li>
-                        <a class="" href="actu.php">Actualités</a>
-                    </li>
-                    <li>
-                        <a class="" href="galerie.php">Galerie</a>
-                    </li>
-                    <li>
-                        <a class="" href="contact.php">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            
-        </div>
-    </nav>
-
     <!--  Accueil  -->
     <header class="intro">
         <div class="intro-body">
@@ -82,9 +48,9 @@
     <!--  Section 1  -->
 
     <div id="container-fluid">
-        <div class="row section">
+        <div class="row section" id="bla">
             <div class="col-md-12">
-                <h1 id="bla">Qui sommes nous?</h1>
+                <h1>Qui sommes nous?</h1>
                 <div class="col-md-12">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quas ratione eveniet rerum, dolorem beatae soluta dicta nam inventore, temporibus maxime molestiae deleniti, quo itaque quia provident autem. Laboriosam, itaque.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora odit iusto saepe praesentium exercitationem odio delectus. Totam eligendi harum incidunt, repudiandae doloribus odit placeat sunt, labore quis dolor at molestiae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit aut eius nihil error dicta praesentium nostrum officia architecto sed recusandae, iure excepturi, nesciunt odio ipsam necessitatibus itaque a consequuntur cupiditate!</p>
                 </div>

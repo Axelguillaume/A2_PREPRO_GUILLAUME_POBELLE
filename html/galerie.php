@@ -51,7 +51,7 @@
     </header>
 
 <div id="container-fluid">
-        <div class="row section">
+        <div class="row section" id="bla">
             <div class="col-md-12">
                 <h1 id="bla">Les dernières paires à la mode</h1>
                 <div class="col-md-12">

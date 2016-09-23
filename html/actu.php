@@ -50,7 +50,7 @@
     <!--  Section 1  -->
 
     <div id="container-fluid" class="bounceInUp">
-        <div class="row section ensemble_article">
+        <div class="row section ensemble_article" id="bla">
             <div class="col-md-12">
                 <div class="col-md-6">
                     <h1>Qui sommes nous?</h1>
