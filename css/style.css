@@ -2,7 +2,7 @@
 body {
   width: 100%;
   height: 100%;
-  font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: black;
   background-color: white;
   overflow-x: hidden;
@@ -17,15 +17,17 @@ html {
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 35px;
   text-transform: uppercase;
-  font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
+  color: black;
 }
 
 p {
   margin: 0 0 25px;
   font-size: 18px;
   line-height: 1.5;
+  color: black;
 }
 
 @media (min-width: 768px) {
@@ -40,7 +42,7 @@ p {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   text-transform: uppercase;
-  font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: white;
 }
 
@@ -90,13 +92,13 @@ p {
 }
 
 .intro {
+  background: url(../image/image_header.jpg) no-repeat bottom center scroll;
   display: table;
   width: 100%;
   height: auto;
   padding: 100px 0;
   text-align: center;
   color: black;
-  background: url(../image/image_header.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -111,6 +113,14 @@ p {
 
 .intro .intro-body .brand-heading {
   font-size: 40px;
+}
+
+.intro .intro-body .brand-heading h1 {
+  -moz-box-shadow: 10px 10px 100px 0px #fff;
+  -webkit-box-shadow: 10px 10px 100px 0px #fff;
+  -o-box-shadow: 10px 10px 100px 0px #fff;
+  box-shadow: 10px 10px 100px 0px #fff;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#fff, Direction=134, Strength=100);
 }
 
 @media (min-width: 768px) {
@@ -324,25 +334,25 @@ p {
   }
   from {
     opacity: 0;
-    -webkit-transform: translate3d(3000px, 0, 0);
-    transform: translate3d(3000px, 0, 0);
+    -webkit-transform: translate3d(0, 3000px, 0);
+    transform: translate3d(0, 3000px, 0);
   }
   60% {
     opacity: 1;
-    -webkit-transform: translate3d(-25px, 0, 0);
-    transform: translate3d(-25px, 0, 0);
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
   }
   75% {
-    -webkit-transform: translate3d(10px, 0, 0);
-    transform: translate3d(10px, 0, 0);
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0);
   }
   90% {
-    -webkit-transform: translate3d(-5px, 0, 0);
-    transform: translate3d(-5px, 0, 0);
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
   }
   to {
-    -webkit-transform: none;
-    transform: none;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
   }
 }
 
@@ -353,25 +363,25 @@ p {
   }
   from {
     opacity: 0;
-    -webkit-transform: translate3d(3000px, 0, 0);
-    transform: translate3d(3000px, 0, 0);
+    -webkit-transform: translate3d(0, 3000px, 0);
+    transform: translate3d(0, 3000px, 0);
   }
   60% {
     opacity: 1;
-    -webkit-transform: translate3d(-25px, 0, 0);
-    transform: translate3d(-25px, 0, 0);
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
   }
   75% {
-    -webkit-transform: translate3d(10px, 0, 0);
-    transform: translate3d(10px, 0, 0);
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0);
   }
   90% {
-    -webkit-transform: translate3d(-5px, 0, 0);
-    transform: translate3d(-5px, 0, 0);
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
   }
   to {
-    -webkit-transform: none;
-    transform: none;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
   }
 }
 
@@ -417,13 +427,13 @@ p {
 }
 
 .intro_actu {
+  background: url(../image/image_header_actu.jpg) no-repeat bottom center scroll;
   display: table;
   width: 100%;
   height: auto;
   padding: 100px 0;
   text-align: center;
   color: black;
-  background: url(../image/image_header_actu.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -459,13 +469,13 @@ p {
 }
 
 .intro_galerie {
+  background: url(../image/image_header_galerie.jpg) no-repeat bottom center scroll;
   display: table;
   width: 100%;
   height: auto;
   padding: 100px 0;
   text-align: center;
   color: black;
-  background: url(../image/image_header_galerie.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -480,6 +490,14 @@ p {
 
 .intro_galerie .intro-body .brand-heading {
   font-size: 40px;
+}
+
+.intro_galerie .intro-body .brand-heading h1 {
+  -moz-box-shadow: 10px 10px 100px 0px #fff;
+  -webkit-box-shadow: 10px 10px 100px 0px #fff;
+  -o-box-shadow: 10px 10px 100px 0px #fff;
+  box-shadow: 10px 10px 100px 0px #fff;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#fff, Direction=134, Strength=100);
 }
 
 @media (min-width: 768px) {
@@ -530,18 +548,18 @@ p {
 }
 
 #container-fluid input[type="text"], #container-fluid textarea {
-  background-color: #eeeced;
+  background-color: #cccccc;
   border: none;
 }
 
 .intro_contact {
+  background: url(../image/img_contact.jpg) no-repeat bottom center scroll;
   display: table;
   width: 100%;
   height: auto;
   padding: 100px 0;
   text-align: center;
   color: black;
-  background: url(../image/img_contact.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -556,6 +574,14 @@ p {
 
 .intro_contact .intro-body .brand-heading {
   font-size: 40px;
+}
+
+.intro_contact .intro-body .brand-heading h1 {
+  -moz-box-shadow: 10px 10px 100px 0px #fff;
+  -webkit-box-shadow: 10px 10px 100px 0px #fff;
+  -o-box-shadow: 10px 10px 100px 0px #fff;
+  box-shadow: 10px 10px 100px 0px #fff;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#fff, Direction=134, Strength=100);
 }
 
 @media (min-width: 768px) {

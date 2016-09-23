@@ -21,47 +21,22 @@
         font-family: Arial;
         color: #ffffff;
         font-size: 15px;
-        background: #cccccc;
+        background: $couleurformulaire;
         padding: 5px 10px 5px 10px;
         text-decoration: none;
         &:hover{
-            background: #595959;
+            background: $couleurformulaire_hover;
             text-decoration: none;
         }
     }   
     input[type="text"], textarea{
-        background-color: #eeeced;
+        background-color: $couleurformulaire;
         border: none;
     }        
 }
 
 .intro_contact {
-    display: table;
-    width: 100%;
-    height: auto;
-    padding: 100px 0;
-    text-align: center;
-    color: black;
+
     background: url(../image/img_contact.jpg) no-repeat bottom center scroll;
-    background-color: black;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    .intro-body {
-        display: table-cell;
-        vertical-align: middle;
-        .brand-heading {
-            font-size: 40px;
-        }
-    }
-    @media(min-width:768px) {
-        height: 100%;
-        padding: 0;
-        .intro-body {
-            .brand-heading {
-                font-size: 100px;
-            }
-        }
-    }
+    @include intro;
 }
