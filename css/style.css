@@ -1,45 +1,4 @@
 /*@import "compass/css3";*/
-<<<<<<< HEAD
-=======
-.paragraphe p {
-  color: red;
-}
-
-.intro_galerie {
-  display: table;
-  width: 100%;
-  height: auto;
-  padding: 100px 0;
-  text-align: center;
-  color: black;
-  background: url(../image/image_header_galerie.jpg) no-repeat bottom center scroll;
-  background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-
-.intro_galerie .intro-body {
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.intro_galerie .intro-body .brand-heading {
-  font-size: 40px;
-}
-
-@media (min-width: 768px) {
-  .intro_galerie {
-    height: 100%;
-    padding: 0;
-  }
-  .intro_galerie .intro-body .brand-heading {
-    font-size: 100px;
-  }
-}
-
->>>>>>> galerie_photo
 body {
   width: 100%;
   height: 100%;
@@ -223,7 +182,6 @@ p {
   outline: none;
   color: rgba(0, 0, 0, 0.6);
 }
-<<<<<<< HEAD
 
 @-webkit-keyframes bounceInLeft {
   from, 60%, 75%, 90%, to {
@@ -352,6 +310,40 @@ p {
   }
 }
 
+.intro_galerie {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  text-align: center;
+  color: black;
+  background: url(../image/image_header_galerie.jpg) no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.intro_galerie .intro-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.intro_galerie .intro-body .brand-heading {
+  font-size: 40px;
+}
+
+@media (min-width: 768px) {
+  .intro_galerie {
+    height: 100%;
+    padding: 0;
+  }
+  .intro_galerie .intro-body .brand-heading {
+    font-size: 100px;
+  }
+}
+
 #container-fluid {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -374,5 +366,3 @@ p {
 #container-fluid .btn {
   float: right;
 }
-=======
->>>>>>> galerie_photo

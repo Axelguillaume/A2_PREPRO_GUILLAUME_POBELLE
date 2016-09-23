@@ -15,29 +15,16 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-<<<<<<< HEAD
                         <a class="" href="index.php">Accueil</a>
                     </li>
                     <li>
                         <a class="" href="actu.php">Actualités</a>
                     </li>
                     <li>
-                        <a class="" href="galerie.html">Galerie</a>
+                        <a class="" href="galerie.php">Galerie</a>
                     </li>
                     <li>
                         <a class="" href="contact.php">Contact</a>
-=======
-                        <a class="" href="#">Accueil</a>
-                    </li>
-                    <li>
-                        <a class="" href="#">Actualités</a>
-                    </li>
-                    <li>
-                        <a class="" href="#">Galerie</a>
-                    </li>
-                    <li>
-                        <a class="" href="#">Contact</a>
->>>>>>> galerie_photo
                     </li>
                 </ul>
             </div>
