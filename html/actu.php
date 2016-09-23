@@ -56,7 +56,7 @@
         <div class="row section ensemble_article" id="bla">
             <div class="col-md-12">
                 <div class="col-md-6">
-                    <h1>Qui sommes nous?</h1>
+                    <h1>Une nouvelle paire est sortie !</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quas ratione eveniet rerum, dolorem beatae soluta dicta nam inventore, temporibus maxime molestiae deleniti, quo itaque quia provident autem. Laboriosam, itaque.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora odit iusto saepe praesentium exercitationem odio delectus. Totam eligendi harum incidunt, repudiandae doloribus odit placeat sunt, labore quis dolor at molestiae.</p>
                     <p class="signature">By Xavp...</p>
                 </div>
@@ -73,7 +73,7 @@
         <div class="row section ensemble_article">
             <div class="col-md-12">
                 <div class="col-md-6">
-                    <h1>Qui sommes nous?</h1>
+                    <h1>Une nouvelle paire est sortie !</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quas ratione eveniet rerum, dolorem beatae soluta dicta nam inventore, temporibus maxime molestiae deleniti, quo itaque quia provident autem. Laboriosam, itaque.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora odit iusto saepe praesentium exercitationem odio delectus. Totam eligendi harum incidunt, repudiandae doloribus odit placeat sunt, labore quis dolor at molestiae.</p>
                     <p class="signature">By Xavp...</p>
                 </div>
@@ -90,7 +90,7 @@
         <div class="row section ensemble_article">
             <div class="col-md-12">
                 <div class="col-md-6">
-                    <h1>Qui sommes nous?</h1>
+                    <h1>Une nouvelle paire est sortie !</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quas ratione eveniet rerum, dolorem beatae soluta dicta nam inventore, temporibus maxime molestiae deleniti, quo itaque quia provident autem. Laboriosam, itaque.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora odit iusto saepe praesentium exercitationem odio delectus. Totam eligendi harum incidunt, repudiandae doloribus odit placeat sunt, labore quis dolor at molestiae.</p>
                     <p class="signature">By Xavp...</p>
                 </div>
@@ -107,7 +107,7 @@
         <div class="row section ensemble_article">
             <div class="col-md-12">
                 <div class="col-md-6">
-                    <h1>Qui sommes nous?</h1>
+                    <h1>Une nouvelle paire est sortie !</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quas ratione eveniet rerum, dolorem beatae soluta dicta nam inventore, temporibus maxime molestiae deleniti, quo itaque quia provident autem. Laboriosam, itaque.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora odit iusto saepe praesentium exercitationem odio delectus. Totam eligendi harum incidunt, repudiandae doloribus odit placeat sunt, labore quis dolor at molestiae.</p>
                     <p class="signature">By Xavp...</p>
                 </div>
@@ -124,7 +124,7 @@
         <div class="row section ensemble_article">
             <div class="col-md-12">
                 <div class="col-md-6">
-                    <h1>Qui sommes nous?</h1>
+                    <h1>Une nouvelle paire est sortie !</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quas ratione eveniet rerum, dolorem beatae soluta dicta nam inventore, temporibus maxime molestiae deleniti, quo itaque quia provident autem. Laboriosam, itaque.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora odit iusto saepe praesentium exercitationem odio delectus. Totam eligendi harum incidunt, repudiandae doloribus odit placeat sunt, labore quis dolor at molestiae.</p>
                     <p class="signature">By Xavp...</p>
                 </div>
