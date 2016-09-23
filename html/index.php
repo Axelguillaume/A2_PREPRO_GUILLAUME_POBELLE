@@ -14,6 +14,7 @@
     <script type="text/javascript" src="../bootstrap/js/jquery-2.1.3.min.js"></script>
     <script type="text/javascript" src="../bootstrap/js/jquery.localscroll-1.2.7-min.js"></script>
     <script type="text/javascript" src="../bootstrap/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+    <script type="text/javascript" src="../bootstrap/js/animation.js"></script>
     <script type="text/javascript">
     jQuery(function($){
         $.localScroll();
@@ -48,7 +49,7 @@
     <!--  Section 1  -->
 
     <div id="container-fluid">
-        <div class="row section" id="bla">
+        <div class="row section wow bounceInLeft" data-wow-duration="2s" id="bla">
             <div class="col-md-12">
                 <h1>Qui sommes nous?</h1>
                 <div class="col-md-12">
@@ -69,7 +70,7 @@
     <!--  Section 2  -->
 
     <div id="container-fluid">
-        <div class="row section">
+        <div class="row section wow bounceInRight" data-wow-duration="2s">
             <div class="col-md-12">
                 <h1 style="float:right;">Qu'est ce que nous proposons?</h1>
             </div>
