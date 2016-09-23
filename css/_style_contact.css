@@ -19,6 +19,25 @@
 
 #container-fluid .btn {
   float: right;
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  background: #cccccc;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+
+#container-fluid .btn:hover {
+  background: #595959;
+  text-decoration: none;
+}
+
+#container-fluid input[type="text"], #container-fluid textarea {
+  background-color: #eeeced;
+  border: none;
 }
 
 .intro_contact {

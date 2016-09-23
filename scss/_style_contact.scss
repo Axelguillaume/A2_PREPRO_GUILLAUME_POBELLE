@@ -1,3 +1,4 @@
+
 #container-fluid{
     margin-top: 30px;
     margin-bottom: 30px;
@@ -14,7 +15,24 @@
     }
     .btn {
         float: right;
-    }     
+        -webkit-border-radius: 10;
+        -moz-border-radius: 10;
+        border-radius: 10px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 15px;
+        background: #cccccc;
+        padding: 5px 10px 5px 10px;
+        text-decoration: none;
+        &:hover{
+            background: #595959;
+            text-decoration: none;
+        }
+    }   
+    input[type="text"], textarea{
+        background-color: #eeeced;
+        border: none;
+    }        
 }
 
 .intro_contact {

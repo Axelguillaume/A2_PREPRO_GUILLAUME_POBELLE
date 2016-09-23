@@ -113,14 +113,6 @@ p {
   font-size: 40px;
 }
 
-.intro .intro-body .brand-heading h1 {
-  -moz-box-shadow: 10px 10px 100px 0px #fff;
-  -webkit-box-shadow: 10px 10px 100px 0px #fff;
-  -o-box-shadow: 10px 10px 100px 0px #fff;
-  box-shadow: 10px 10px 100px 0px #fff;
-  filter: progid:DXImageTransform.Microsoft.Shadow(color=#fff, Direction=134, Strength=100);
-}
-
 @media (min-width: 768px) {
   .intro {
     height: 100%;
@@ -448,6 +440,25 @@ p {
 
 #container-fluid .btn {
   float: right;
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  background: #cccccc;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+
+#container-fluid .btn:hover {
+  background: #595959;
+  text-decoration: none;
+}
+
+#container-fluid input[type="text"], #container-fluid textarea {
+  background-color: #eeeced;
+  border: none;
 }
 
 .intro_contact {

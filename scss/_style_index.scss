@@ -103,13 +103,6 @@ p {
         vertical-align: middle;
         .brand-heading {
             font-size: 40px;
-                h1{
-                    -moz-box-shadow: 10px 10px 100px 0px #fff;
-                    -webkit-box-shadow: 10px 10px 100px 0px #fff;
-                    -o-box-shadow: 10px 10px 100px 0px #fff;
-                    box-shadow: 10px 10px 100px 0px #fff;
-                    filter:progid:DXImageTransform.Microsoft.Shadow(color=#fff, Direction=134, Strength=100);
-                }
         }
     }
     @media(min-width:768px) {

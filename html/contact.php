@@ -35,7 +35,7 @@
 
     <!--  TITRE FORMULAIRE  -->
 
-    <div id="container-fluid">
+    <div id="container-fluid" class="bla">
     	<div class="row">
 	    	<div class="col-md-12 txt">
 	    		<h1>Des questions des conseils? N'hésitez pas !</h1>
@@ -177,7 +177,7 @@
 					</div>
 					<div class="col-md-3">
 						<input type="text" name="captcha" size="2" />
-						<p class="btn"><input type="submit" name="submit" value="Envoyer" /></p>
+						<input class="btn" type="submit" name="submit" value="Envoyer" />
 					</div>
 					<div class="col-md-3"></div>
 				</div>
