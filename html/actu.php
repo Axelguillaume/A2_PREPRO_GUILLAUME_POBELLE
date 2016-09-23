@@ -14,11 +14,14 @@
     <script type="text/javascript" src="../bootstrap/js/jquery-2.1.3.min.js"></script>
     <script type="text/javascript" src="../bootstrap/js/jquery.localscroll-1.2.7-min.js"></script>
     <script type="text/javascript" src="../bootstrap/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+    <script type="text/javascript" src="../bootstrap/js/animation.js"></script>
     <script type="text/javascript">
     jQuery(function($){
         $.localScroll();
          
     });
+
+
     </script>
     
 </head>
@@ -49,7 +52,7 @@
 
     <!--  Section 1  -->
 
-    <div id="container-fluid" class="bounceInUp">
+    <div id="container-fluid" class="wow bounceInUp" data-wow-duration="2s">
         <div class="row section ensemble_article" id="bla">
             <div class="col-md-12">
                 <div class="col-md-6">
@@ -66,7 +69,7 @@
 
     <!--  Section 2  -->
 
-    <div id="container-fluid">
+    <div id="container-fluid" class="wow bounceInUp" data-wow-duration="2s">
         <div class="row section ensemble_article">
             <div class="col-md-12">
                 <div class="col-md-6">
@@ -83,7 +86,7 @@
 
     <!--  Section 3  -->
 
-    <div id="container-fluid">
+    <div id="container-fluid" class="wow bounceInUp" data-wow-duration="2s">
         <div class="row section ensemble_article">
             <div class="col-md-12">
                 <div class="col-md-6">
@@ -100,7 +103,7 @@
 
     <!--  Section 4  -->
 
-    <div id="container-fluid">
+    <div id="container-fluid" class="wow bounceInUp" data-wow-duration="2s">
         <div class="row section ensemble_article">
             <div class="col-md-12">
                 <div class="col-md-6">
@@ -117,7 +120,7 @@
 
     <!--  Section 5  -->
 
-    <div id="container-fluid">
+    <div id="container-fluid" class="wow bounceInUp" data-wow-duration="2s">
         <div class="row section ensemble_article">
             <div class="col-md-12">
                 <div class="col-md-6">
