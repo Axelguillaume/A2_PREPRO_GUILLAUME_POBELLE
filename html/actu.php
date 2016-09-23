@@ -52,7 +52,7 @@
 
     <!--  Section 1  -->
 
-    <div id="container-fluid" class="wow bounceInUp" data-wow-duration="2s">
+    <div id="container-fluid" class="wow bounceInUp" data-wow-duration="1s">
         <div class="row section ensemble_article" id="bla">
             <div class="col-md-12">
                 <div class="col-md-6">
@@ -69,7 +69,7 @@
 
     <!--  Section 2  -->
 
-    <div id="container-fluid" class="wow bounceInUp" data-wow-duration="2s">
+    <div id="container-fluid" class="wow bounceInUp" data-wow-duration="1s">
         <div class="row section ensemble_article">
             <div class="col-md-12">
                 <div class="col-md-6">
@@ -86,7 +86,7 @@
 
     <!--  Section 3  -->
 
-    <div id="container-fluid" class="wow bounceInUp" data-wow-duration="2s">
+    <div id="container-fluid" class="wow bounceInUp" data-wow-duration="1s">
         <div class="row section ensemble_article">
             <div class="col-md-12">
                 <div class="col-md-6">
@@ -103,7 +103,7 @@
 
     <!--  Section 4  -->
 
-    <div id="container-fluid" class="wow bounceInUp" data-wow-duration="2s">
+    <div id="container-fluid" class="wow bounceInUp" data-wow-duration="1s">
         <div class="row section ensemble_article">
             <div class="col-md-12">
                 <div class="col-md-6">
@@ -120,7 +120,7 @@
 
     <!--  Section 5  -->
 
-    <div id="container-fluid" class="wow bounceInUp" data-wow-duration="2s">
+    <div id="container-fluid" class="wow bounceInUp" data-wow-duration="1s">
         <div class="row section ensemble_article">
             <div class="col-md-12">
                 <div class="col-md-6">

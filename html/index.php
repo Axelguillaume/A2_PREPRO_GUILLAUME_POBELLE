@@ -49,7 +49,7 @@
     <!--  Section 1  -->
 
     <div id="container-fluid">
-        <div class="row section wow bounceInLeft" data-wow-duration="2s" id="bla">
+        <div class="row section wow bounceInLeft" data-wow-duration="1s" id="bla">
             <div class="col-md-12">
                 <h1>Qui sommes nous?</h1>
                 <div class="col-md-12">
@@ -70,7 +70,7 @@
     <!--  Section 2  -->
 
     <div id="container-fluid">
-        <div class="row section wow bounceInRight" data-wow-duration="2s">
+        <div class="row section wow bounceInRight" data-wow-duration="1s">
             <div class="col-md-12">
                 <h1 style="float:right;">Qu'est ce que nous proposons?</h1>
             </div>
