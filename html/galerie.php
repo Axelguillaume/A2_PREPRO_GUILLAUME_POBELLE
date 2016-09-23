@@ -61,24 +61,24 @@
   <div id="gallery-container">
     
     <ul class="items--small">
-      <li class="item"><a href="#"><img src="../images_galerie/small-1.jpg" alt="" /></a></li>
-      <li class="item"><a href="#"><img src="../images_galerie/small-2.jpg" alt="" /></a></li>
-      <li class="item"><a href="#"><img src="../images_galerie/small-3.jpg" alt="" /></a></li>
-      <li class="item"><a href="#"><img src="../images_galerie/small-4.jpg" alt="" /></a></li>
-      <li class="item"><a href="#"><img src="../images_galerie/small-5.jpg" alt="" /></a></li>
-      <li class="item"><a href="#"><img src="../images_galerie/small-6.jpg" alt="" /></a></li>
-      <li class="item"><a href="#"><img src="../images_galerie/small-7.jpg" alt="" /></a></li>
-      <li class="item"><a href="#"><img src="../images_galerie/small-8.jpg" alt="" /></a></li>
-      <li class="item"><a href="#"><img src="../images_galerie/small-9.jpg" alt="" /></a></li>
-      <li class="item"><a href="#"><img src="../images_galerie/small-10.jpg" alt="" /></a></li>
-      <li class="item"><a href="#"><img src="../images_galerie/small-11.jpg" alt="" /></a></li>
-      <li class="item"><a href="#"><img src="../images_galerie/small-12.jpg" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="../images_galerie/small-1.jpg" alt="Paire sneakers" /></a></li>
+      <li class="item"><a href="#"><img src="../images_galerie/small-2.jpg" alt="Paire sneakers" /></a></li>
+      <li class="item"><a href="#"><img src="../images_galerie/small-3.jpg" alt="Paire sneakers" /></a></li>
+      <li class="item"><a href="#"><img src="../images_galerie/small-4.jpg" alt="Paire sneakers" /></a></li>
+      <li class="item"><a href="#"><img src="../images_galerie/small-5.jpg" alt="Paire sneakers" /></a></li>
+      <li class="item"><a href="#"><img src="../images_galerie/small-6.jpg" alt="Paire sneakers" /></a></li>
+      <li class="item"><a href="#"><img src="../images_galerie/small-7.jpg" alt="Paire sneakers" /></a></li>
+      <li class="item"><a href="#"><img src="../images_galerie/small-8.jpg" alt="Paire sneakers" /></a></li>
+      <li class="item"><a href="#"><img src="../images_galerie/small-9.jpg" alt="Paire sneakers" /></a></li>
+      <li class="item"><a href="#"><img src="../images_galerie/small-10.jpg" alt="Paire sneakers" /></a></li>
+      <li class="item"><a href="#"><img src="../images_galerie/small-11.jpg" alt="Paire sneakers" /></a></li>
+      <li class="item"><a href="#"><img src="../images_galerie/small-12.jpg" alt="Paire sneakers" /></a></li>
     </ul>
     <ul class="items--big">
       <li class="item--big">
         <a href="#">
           <figure>
-            <img src="../images_galerie/big-1.jpg" alt="" />
+            <img src="../images_galerie/big-1.jpg" alt="Paire sneakers" />
             
           </figure>
           </a>
@@ -86,7 +86,7 @@
       <li class="item--big">
         <a href="#">
           <figure>
-            <img src="../images_galerie/big-2.jpg" alt="" />
+            <img src="../images_galerie/big-2.jpg" alt="Paire sneakers" />
             
           </figure>
           </a>
@@ -94,7 +94,7 @@
       <li class="item--big">
         <a href="#">
           <figure>
-            <img src="../images_galerie/big-3.jpg" alt="" />
+            <img src="../images_galerie/big-3.jpg" alt="Paire sneakers" />
             
           </figure>
           </a>
@@ -102,7 +102,7 @@
       <li class="item--big">
         <a href="#">
           <figure>
-            <img src="../images_galerie/big-4.jpg" alt="" />
+            <img src="../images_galerie/big-4.jpg" alt="Paire sneakers" />
             
           </figure>
           </a>
@@ -110,7 +110,7 @@
       <li class="item--big">
         <a href="#">
           <figure>
-            <img src="../images_galerie/big-5.jpg" alt="" />
+            <img src="../images_galerie/big-5.jpg" alt="Paire sneakers" />
             
           </figure>
           </a>
@@ -118,7 +118,7 @@
       <li class="item--big">
         <a href="#">
           <figure>
-            <img src="../images_galerie/big-6.jpg" alt="" />
+            <img src="../images_galerie/big-6.jpg" alt="Paire sneakers" />
             
           </figure>
           </a>
@@ -126,7 +126,7 @@
       <li class="item--big">
         <a href="#">
           <figure>
-            <img src="../images_galerie/big-7.jpg" alt="" />
+            <img src="../images_galerie/big-7.jpg" alt="Paire sneakers" />
             
           </figure>
           </a>
@@ -134,7 +134,7 @@
       <li class="item--big">
         <a href="#">
           <figure>
-            <img src="../images_galerie/big-8.jpg" alt="" />
+            <img src="../images_galerie/big-8.jpg" alt="Paire sneakers" />
             
           </figure>
           </a>
@@ -142,7 +142,7 @@
       <li class="item--big">
         <a href="#">
           <figure>
-            <img src="../images_galerie/big-9.jpg" alt="" />
+            <img src="../images_galerie/big-9.jpg" alt="Paire sneakers" />
             
           </figure>
           </a>
@@ -150,7 +150,7 @@
       <li class="item--big">
         <a href="#">
           <figure>
-            <img src="../images_galerie/big-10.jpg" alt="" />
+            <img src="../images_galerie/big-10.jpg" alt="Paire sneakers" />
             
           </figure>
           </a>
@@ -158,7 +158,7 @@
       <li class="item--big">
         <a href="#">
           <figure>
-            <img src="../images_galerie/big-11.jpg" alt="" />
+            <img src="../images_galerie/big-11.jpg" alt="Paire sneakers" />
             
           </figure>
           </a>
@@ -166,7 +166,7 @@
       <li class="item--big">
         <a href="#">
           <figure>
-            <img src="../images_galerie/big-12.jpg" alt="" />
+            <img src="../images_galerie/big-12.jpg" alt="Paire sneakers" />
             
           </figure>
           </a>
