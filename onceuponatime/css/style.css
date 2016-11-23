@@ -55,7 +55,8 @@ p {
   transition: all 1s;
 }
 #header .navbar a:hover {
-  background-color: #6a9fa5;
+  background-color: #e18b05;
+  color: black;
   border-radius: 5px;
 }
 #header .titre {
