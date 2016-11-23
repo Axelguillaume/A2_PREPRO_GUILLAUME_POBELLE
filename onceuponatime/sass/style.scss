@@ -1,0 +1,157 @@
+@import	"variables.scss";
+
+
+
+/*-----------------SEPARATEUR-----------------*/
+
+.separateur{
+	height: 200px;
+	background: url("../image/separation.jpg");
+	background-size: 100%;
+	background-attachment : fixed;
+}
+
+/*-----------------FIRST PART-----------------*/
+h1{
+	font-size:70px; 
+}
+h2{
+	color: #e18b05
+	
+}
+h3{
+color: #e18b05
+
+}
+h4{
+
+	color :#51858b;
+}
+h5{
+
+	color :#51858b;
+}
+
+p{
+	color: black;
+}
+
+#header{
+	background-image: $imageheader;
+	background-attachment : fixed;
+	color: $couleurpoliceh;
+	.navbar{
+		padding: 10px 0px 10px 0px;
+		background-color: $couleurheader;
+		border-bottom-style: none;
+		color:none;
+		img{
+			width: 25%;
+		}
+		a{
+			color: #e18b05;
+			font-size: 20px;
+			transition: all 1s;
+			&:hover{
+				background-color: #6a9fa5;
+				border-radius: 5px;
+			}
+		}
+		
+	}
+
+	.titre{
+		margin-top: 300px;
+		text-shadow: 5px 5px 10px black;
+		a{
+			margin-top: 100px;
+			margin-bottom: 250px;
+			background-color: #e18b05;
+			color: white;
+
+		}
+	}
+
+}
+
+
+/*-----------------SECOND PART-----------------*/
+
+#personnage{
+	background-color: $couleurequipe;
+
+
+	.titre{
+		margin-top: 100px;
+	}
+	hr{
+		width: 100px;
+		border-width: 6px;
+	}
+	.personne{
+		img{
+			width: 75%;
+			margin-top: 50px;
+		}
+		a{
+			i{
+				margin: 0px 10px 40px 10px;
+
+			}
+		}
+	}
+}
+
+/*-----------------THIRD PART-----------------*/
+
+#lieux{
+	background-color: $couleurcompetence;
+		margin-bottom: 80px;
+	.titre{
+		margin-top: 100px;
+
+		img{
+			width: 90%;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+	}
+	hr{
+		width: 100px;
+		border-width: 6px;
+	}
+	
+}
+
+#chronologie{
+	background-color: $couleurcompetence;
+
+	margin-bottom: 80px;
+	.titre{
+		margin-top: 100px;
+
+	}
+	hr{
+		width: 100px;
+		border-width: 6px;
+	}
+	img{
+			width: 100%;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+}
+
+/*-----------------FOURTH PART-----------------*/
+
+#footer{
+	color: $couleurpolicef;
+	
+	.footer{
+		background-color: $couleursfooter;
+		p{
+			padding: 20px 0px 10px 0px;
+			color: white;
+		}
+	}
+}
